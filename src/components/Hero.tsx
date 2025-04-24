@@ -64,14 +64,14 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-wrap justify-center gap-8 md:gap-16 animate-fadeIn animation-delay-500">
+        {/* <div className="mt-16 flex flex-wrap justify-center gap-8 md:gap-16 animate-fadeIn animation-delay-500">
           <img src="https://via.placeholder.com/120x40/ffffff/666666?text=Client+Logo" alt="Client Logo" className="h-8 opacity-70 hover:opacity-100 transition-opacity duration-300" />
           <img src="https://via.placeholder.com/120x40/ffffff/666666?text=Client+Logo" alt="Client Logo" className="h-8 opacity-70 hover:opacity-100 transition-opacity duration-300" />
           <img src="https://via.placeholder.com/120x40/ffffff/666666?text=Client+Logo" alt="Client Logo" className="h-8 opacity-70 hover:opacity-100 transition-opacity duration-300" />
           <img src="https://via.placeholder.com/120x40/ffffff/666666?text=Client+Logo" alt="Client Logo" className="h-8 opacity-70 hover:opacity-100 transition-opacity duration-300" />
           <img src="https://via.placeholder.com/120x40/ffffff/666666?text=Client+Logo" alt="Client Logo" className="h-8 opacity-70 hover:opacity-100 transition-opacity duration-300" />
           <img src="/assets/Nov.png" alt="NovaTex Logo" className="h-6" />
-        </div>
+        </div> */}
       </div>
     </section>
   );

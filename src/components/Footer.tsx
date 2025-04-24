@@ -4,7 +4,7 @@ import Logo from './Logo';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-900 text-white pt-16 pb-8">
+    <footer className="bg-purple-900 text-white pt-16 pb-8">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
@@ -16,16 +16,20 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://www.facebook.com/novatex.et" 
                 className="p-2 rounded-full bg-gray-800 hover:bg-indigo-600 transition-colors duration-300"
                 aria-label="Facebook"
+                target="_blank" 
+                rel="noopener noreferrer"
               >
                 <Facebook className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="https://twitter.com/your-twitter-username" 
                 className="p-2 rounded-full bg-gray-800 hover:bg-indigo-600 transition-colors duration-300"
                 aria-label="Twitter"
+                target="_blank" 
+                rel="noopener noreferrer"
               >
                 <Twitter className="h-5 w-5" />
               </a>
@@ -39,9 +43,11 @@ const Footer: React.FC = () => {
                 <Instagram className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/your-linkedin-username" 
                 className="p-2 rounded-full bg-gray-800 hover:bg-indigo-600 transition-colors duration-300"
                 aria-label="LinkedIn"
+                target="_blank" 
+                rel="noopener noreferrer"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
