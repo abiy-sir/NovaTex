@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="bg-gradient-to-br from-indigo-600 to-purple-600 rounded-3xl absolute -inset-1.5 blur-sm opacity-70"></div>
               <img 
-                src="/src/assets/NTT.png"
+                src="/assets/NTT.png"
                 className="relative rounded-2xl shadow-2xl w-full object-cover"
               />
             </div>
@@ -70,6 +70,7 @@ const Hero: React.FC = () => {
           <img src="https://via.placeholder.com/120x40/ffffff/666666?text=Client+Logo" alt="Client Logo" className="h-8 opacity-70 hover:opacity-100 transition-opacity duration-300" />
           <img src="https://via.placeholder.com/120x40/ffffff/666666?text=Client+Logo" alt="Client Logo" className="h-8 opacity-70 hover:opacity-100 transition-opacity duration-300" />
           <img src="https://via.placeholder.com/120x40/ffffff/666666?text=Client+Logo" alt="Client Logo" className="h-8 opacity-70 hover:opacity-100 transition-opacity duration-300" />
+          <img src="/assets/Nov.png" alt="NovaTex Logo" className="h-6" />
         </div>
       </div>
     </section>

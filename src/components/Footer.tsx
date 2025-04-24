@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             
-            <img src="/src/assets/Nov.png" alt="NovaTex Logo" className="h-16" />
+            <img src="/assets/Nov.png" alt="NovaTex Logo" className="h-16" />
             <p className="mt-4 text-gray-400 mb-6">
               NovaTex is a leading digital marketing agency in Addis Ababa, helping businesses 
               across Ethiopia and East Africa build powerful online presences.
@@ -30,9 +30,11 @@ const Footer: React.FC = () => {
                 <Twitter className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/novatex.et" 
                 className="p-2 rounded-full bg-gray-800 hover:bg-indigo-600 transition-colors duration-300"
                 aria-label="Instagram"
+                target="_blank" 
+                rel="noopener noreferrer"
               >
                 <Instagram className="h-5 w-5" />
               </a>
