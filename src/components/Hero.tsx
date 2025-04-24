@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="bg-gradient-to-br from-indigo-600 to-purple-600 rounded-3xl absolute -inset-1.5 blur-sm opacity-70"></div>
               <img 
-                src="https://hetic.in/wp-content/uploads/2019/10/Digital-Marketing-1.jpg" 
+                src="/src/assets/NTT.png"
                 className="relative rounded-2xl shadow-2xl w-full object-cover"
               />
             </div>
