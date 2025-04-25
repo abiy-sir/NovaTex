@@ -82,16 +82,15 @@ const Contact: React.FC = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Email Address</h4>
-                      <p className="text-gray-600">info@novatex.et</p>
-                      <p className="text-gray-600">support@novatex.et</p>
+                      <p className="text-gray-600">novatex.info1@gmail.com</p>
                     </div>
                   </div>
                 </div>
                 
                 <div className="mt-8 pt-8 border-t border-gray-100">
                   <h4 className="font-semibold text-gray-900 mb-4">Working Hours</h4>
-                  <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p className="text-gray-600">Saturday: 9:00 AM - 3:00 PM</p>
+                  <p className="text-gray-600">Monday - Friday: 8:30 AM - 5:00 PM</p>
+                  <p className="text-gray-600">Saturday: 8:30 AM - 4:00 PM</p>
                   <p className="text-gray-600">Sunday: Closed</p>
                 </div>
               </div>
